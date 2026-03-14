@@ -443,3 +443,186 @@ padding:8px 14px;
 border-radius:20px;
 font-size:13px;
 }
+#education{
+padding:120px 20px;
+background:#020617;
+text-align:center;
+color:white;
+}
+
+.edu-title{
+font-size:48px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.edu-subtitle{
+color:#9ca3af;
+margin-bottom:80px;
+}
+
+.edu-timeline{
+max-width:900px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:60px;
+}
+
+.edu-card{
+background:#0b1120;
+padding:40px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.1);
+box-shadow:0 0 40px rgba(139,92,246,0.3);
+position:relative;
+}
+
+.edu-logo{
+position:absolute;
+top:-30px;
+left:40px;
+background:#8b5cf6;
+padding:10px;
+border-radius:50%;
+}
+
+.edu-logo img{
+width:40px;
+}
+
+.edu-card h2{
+margin-top:10px;
+font-size:26px;
+}
+
+.edu-card h3{
+color:#a78bfa;
+margin:5px 0;
+}
+
+.edu-date{
+color:#9ca3af;
+margin:5px 0;
+}
+
+.grade{
+font-weight:600;
+margin-bottom:10px;
+}
+
+.edu-desc{
+color:#cbd5e1;
+}
+
+#contact{
+padding:120px 20px;
+background:#020617;
+text-align:center;
+color:white;
+}
+
+.contact-title{
+font-size:48px;
+font-weight:700;
+}
+
+.contact-subtitle{
+color:#9ca3af;
+margin-top:10px;
+margin-bottom:60px;
+}
+
+.contact-container{
+max-width:600px;
+margin:auto;
+padding:40px;
+background:#0b1120;
+border-radius:16px;
+border:1px solid rgba(255,255,255,0.1);
+box-shadow:0 0 30px rgba(139,92,246,0.2);
+}
+
+.contact-container h2{
+margin-bottom:30px;
+}
+
+#contact-form input,
+#contact-form textarea{
+width:100%;
+padding:14px;
+margin-bottom:20px;
+border-radius:10px;
+border:1px solid rgba(255,255,255,0.1);
+background:#020617;
+color:white;
+font-size:15px;
+}
+
+#contact-form button{
+width:100%;
+padding:14px;
+border:none;
+border-radius:10px;
+font-size:18px;
+font-weight:600;
+cursor:pointer;
+
+background:linear-gradient(90deg,#7c3aed,#ec4899);
+color:white;
+
+transition:0.3s;
+}
+
+#contact-form button:hover{
+transform:scale(1.03);
+}
+
+.footer{
+background:#020617;
+padding:80px 20px;
+text-align:center;
+color:white;
+}
+
+.footer-name{
+color:#a855f7;
+font-size:28px;
+margin-bottom:30px;
+}
+
+.footer-nav{
+margin-bottom:30px;
+}
+
+.footer-nav a{
+margin:0 15px;
+color:#cbd5e1;
+text-decoration:none;
+font-size:16px;
+transition:0.3s;
+}
+
+.footer-nav a:hover{
+color:#a855f7;
+}
+
+.footer-social{
+margin-bottom:30px;
+}
+
+.footer-social a{
+margin:0 10px;
+font-size:22px;
+color:white;
+transition:0.3s;
+}
+
+.footer-social a:hover{
+color:#a855f7;
+}
+
+.copyright{
+color:#9ca3af;
+font-size:14px;
+}

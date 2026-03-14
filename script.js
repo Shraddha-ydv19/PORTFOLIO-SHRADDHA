@@ -1,3 +1,5 @@
+/* Typing Animation */
+
 const words = ["Developer","Coder","Programmer","Cybersecurity Learner"]
 
 let i = 0
@@ -42,3 +44,31 @@ setTimeout(type,120)
 }
 
 type()
+
+
+
+/* EmailJS Contact Form */
+
+(function(){
+emailjs.init("YOUR_PUBLIC_KEY")
+})()
+
+document.getElementById("contact-form").addEventListener("submit", function(e){
+
+e.preventDefault()
+
+emailjs.sendForm(
+"SERVICE_ID",
+"TEMPLATE_ID",
+this
+).then(function(){
+
+alert("Message Sent Successfully 🚀")
+
+}, function(error){
+
+alert("Failed to send message")
+
+})
+
+})
