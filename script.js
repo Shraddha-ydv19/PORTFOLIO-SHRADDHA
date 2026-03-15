@@ -50,7 +50,7 @@ type()
 /* EmailJS Contact Form */
 
 (function(){
-emailjs.init("YOUR_PUBLIC_KEY")
+emailjs.init("sZilpVQEd08RCz-qC")
 })()
 
 document.getElementById("contact-form").addEventListener("submit", function(e){
@@ -58,8 +58,8 @@ document.getElementById("contact-form").addEventListener("submit", function(e){
 e.preventDefault()
 
 emailjs.sendForm(
-"SERVICE_ID",
-"TEMPLATE_ID",
+"service_mfb83mh",
+"template_a755dyi",
 this
 ).then(function(){
 
